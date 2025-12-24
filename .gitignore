@@ -1,0 +1,19 @@
+# Dataset (do not upload images & labels)
+dataset/images/
+dataset/labels/
+
+# Raw dataset
+raw_dataset/
+
+# Training results
+runs/
+
+# Videos
+video/
+
+# Model weights
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
