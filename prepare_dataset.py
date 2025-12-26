@@ -55,4 +55,4 @@ data_yaml = {
 with open("dataset/traffic_sign.yaml", "w", encoding="utf-8") as f:
     yaml.dump(data_yaml, f, allow_unicode=True)
 
-print("✅ Đã tạo dataset/traffic_sign.yaml")
+print("Đã tạo dataset/traffic_sign.yaml")
