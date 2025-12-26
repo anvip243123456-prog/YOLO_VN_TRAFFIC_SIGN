@@ -13,7 +13,7 @@ video_path = "video/test.mp4"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
-    print("❌ Không mở được video:", video_path)
+    print("Không mở được video:", video_path)
     exit()
 
 while True:
